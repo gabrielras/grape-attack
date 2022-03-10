@@ -6,8 +6,8 @@ require 'grape/attack/version'
 Gem::Specification.new do |spec|
   spec.name          = "grape-attack"
   spec.version       = Grape::Attack::VERSION
-  spec.authors       = ["Pierre-Louis Gottfrois"]
-  spec.email         = ["pierrelouis.gottfrois@gmail.com"]
+  spec.authors       = ["Gabriel Rocha"]
+  spec.email         = ["gabrielras12@hotmail.com"]
 
   spec.summary       = %q{A middleware for Grape to add endpoint-specific throttling.}
   spec.description   = %q{A middleware for Grape to add endpoint-specific throttling.}
@@ -20,11 +20,11 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "grape", ">= 0.16", "< 2.0"
-  spec.add_dependency "redis-namespace", "~> 1.5"
+  spec.add_dependency "redis-namespace", "~> 1.6"
   spec.add_dependency "activemodel", ">= 4.0"
   spec.add_dependency "activesupport", ">= 4.0"
 
-  spec.add_development_dependency "bundler", "~> 1.10"
+  spec.add_development_dependency "bundler", "~> 2.2"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
 end
